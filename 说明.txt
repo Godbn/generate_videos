@@ -1,0 +1,12 @@
+├── mp3/  #音频目录
+│   ├── audio1.mp3
+│   └── audio2.mp3
+├── video/  #分割好的视频目录
+│   ├── video1.mp4
+│   └── video2.mp4
+├── generate_videos.py
+└── run.bat  #运行程序
+
+用法：点击run.bat，会生成视频在output目录中
+
+缺点：video目录中视频名字不能有空格之类，程序以放入，运行会自动更改名字，比例需要一样，例如9：16
